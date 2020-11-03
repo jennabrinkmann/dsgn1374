@@ -1,0 +1,45 @@
+/* Images */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+
+	background: rgb(218,188,230);
+	background: linear-gradient(180deg, rgba(218,188,230,1) 0%, rgba(241,238,238,1) 100%);
+
+	color: white;
+	font-family: 'Dancing Script', cursive;
+	font-weight: normal;
+	line-height: 1.4;
+	font-size: 16px;
+	margin-top: : 0.25em;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+img {
+	max-width: 50%;
+	box-shadow: 5px 10px #888888;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	text-align: right;
+	color: grey;
+}
+
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.item {
+	width: 50%;
+	padding: 4em;
+	align-items: center;
+}
